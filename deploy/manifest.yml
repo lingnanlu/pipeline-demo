@@ -1,0 +1,12 @@
+build:
+  workDir: ./
+  cmd:
+    - sh ./deploy/build.sh
+
+deploy:
+  distDir: /usr/local/web/pipeline-demo
+  files:
+    - target/*.jar
+    - deploy/*
+  run:
+    - bash -l ./deploy/run.sh
