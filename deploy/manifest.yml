@@ -9,4 +9,4 @@ deploy:
     - target/*.jar
     - deploy/*
   run:
-    - bash -l ./deploy/run.sh
+    - echo "hello world"
