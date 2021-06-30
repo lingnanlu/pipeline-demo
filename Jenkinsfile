@@ -1,4 +1,4 @@
-@Library("my-jsl") _
+@Library("sn-ci") _
 
 node {
     checkout scm
