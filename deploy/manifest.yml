@@ -4,7 +4,7 @@ build:
     - sh ./deploy/build.sh
 
 deploy:
-  distDir: usr/local/web/pipeline-demo
+  distDir: /usr/local/web/pipeline-demo
   files:
     - target/*.jar
     - deploy/*
